@@ -36,17 +36,20 @@ div[data-employer-list="comments"] {
 html {
   min-height: 100%;
 }
-body {
+.container-fluid {
   background-image: url('images/mainbg.jpg');
   background-position: center center;
   background-size: cover;
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  background-color: transparent;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 0;
 }
+  /* Margin bottom by footer height */
 
 .navbar {
   opacity: 0.5;
-  align: center;
+  text-align: center;
 }
 
 .footer {
@@ -68,10 +71,18 @@ body {
 }
 /* -------------------------------------------------- */
 
-.jumbotron {
-  background-color: transparent;
-  color: #FFFFFF;
+.input-group{
+  padding: 0 50px;
+}
+
+.navbar{
+  display: inline;
   text-align: center;
+}
+
+.addComment{
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
 }
 
 
